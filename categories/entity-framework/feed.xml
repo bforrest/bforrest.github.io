@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Entity Framework on Transparency, Inspection, and Adaptation</title>
+    <link>bforrest.com/categories/entity-framework/</link>
+    <description>Recent content in Entity Framework on Transparency, Inspection, and Adaptation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Aug 2011 00:00:00 +0000</lastBuildDate><atom:link href="bforrest.com/categories/entity-framework/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EF Code First &amp; AppHarbor</title>
+      <link>bforrest.com/post/2011-08-25-ef-code-first-and-appharbor/</link>
+      <pubDate>Thu, 25 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>bforrest.com/post/2011-08-25-ef-code-first-and-appharbor/</guid>
+      <description>Since my employer, Improving lined me up a new gig that uses Entity Framework Code First, I thought I kick off a learning side project with MVC3 and deploy it to AppHarbor. Everything seemed simple enough. Use Nuget to install the code first bits, hammer out a couple of model and a datacontext and BOOM! data goes into a database.
+It wasn’t anything pretty, but I was ready to deploy it to AppHarbor.</description>
+    </item>
+    
+  </channel>
+</rss>

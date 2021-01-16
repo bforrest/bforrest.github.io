@@ -1,0 +1,19 @@
+ul.social-media-list {
+    list-style-type: none;
+    margin-left: -50px;
+}
+
+span.icon--github {
+    margin: 5px;
+    padding: 5px;
+}
+
+span.icon--twitter {
+    margin: 5px;
+    padding: 5px;
+}
+
+span.fa-linkedin {
+    margin: 5px;
+    padding: 5px;
+}

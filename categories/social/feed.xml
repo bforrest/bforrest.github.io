@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Social on Transparency, Inspection, and Adaptation</title>
+    <link>bforrest.com/categories/social/</link>
+    <description>Recent content in Social on Transparency, Inspection, and Adaptation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Feb 2012 00:00:00 +0000</lastBuildDate><atom:link href="bforrest.com/categories/social/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Programming &amp; Barriers to Entry</title>
+      <link>bforrest.com/post/2012-02-27-programming-and-barriers-to-entry/</link>
+      <pubDate>Mon, 27 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>bforrest.com/post/2012-02-27-programming-and-barriers-to-entry/</guid>
+      <description>A fellow learner has posted &amp;ldquo;Programming &amp;amp; Barriers to Entry&amp;rdquo;. Cori has much to say in this article concentrated around command line tools, vim and Ruby. I’d like to comment on some of the perceptions and share my own opinions.
+I picked up on some discord with regard to this type of interaction.
+…Intellisense (or lack thereof). Ctrl-spacebar is my friend. It’s what I’ve grown to love. Typing /?—&amp;gt;enter—&amp;gt;up-arrow—&amp;gt;space—&amp;gt;command-I-really-need is a bit of a PITA.</description>
+    </item>
+    
+  </channel>
+</rss>

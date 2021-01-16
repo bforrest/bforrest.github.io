@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cms on Transparency, Inspection, and Adaptation</title>
+    <link>bforrest.com/tags/cms/</link>
+    <description>Recent content in cms on Transparency, Inspection, and Adaptation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Dec 2020 14:04:46 -0600</lastBuildDate><atom:link href="bforrest.com/tags/cms/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fun With Hugo</title>
+      <link>bforrest.com/post/fun-with-hugo/</link>
+      <pubDate>Tue, 29 Dec 2020 14:04:46 -0600</pubDate>
+      
+      <guid>bforrest.com/post/fun-with-hugo/</guid>
+      <description>Fun With Hugo It seems every time that the Muse inspires me to hammer out a blog post I spend most of my time caring for and feeding Dependabot or wrestling with ruby gems. In an effort ot reduce that maintenance cycle I took advantage of a PragProg Thanksgiving offer and purchased Brian P. Hogan&amp;rsquo;s very helpful Build Websites with Hugo.
+I followed along with Brian&amp;rsquo;s example site and learned some neat things about the archetypes and creating themes which will be very handy when I get to work on my home-brewed beer site and need templates for the beer styles and recipes.</description>
+    </item>
+    
+  </channel>
+</rss>

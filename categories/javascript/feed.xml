@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JavaScript on Transparency, Inspection, and Adaptation</title>
+    <link>bforrest.com/categories/javascript/</link>
+    <description>Recent content in JavaScript on Transparency, Inspection, and Adaptation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Aug 2012 00:00:00 +0000</lastBuildDate><atom:link href="bforrest.com/categories/javascript/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>e*trade has buggy client-side javascript</title>
+      <link>bforrest.com/post/2012-08-18-e-star-trade-has-buggy-client-side-javascript/</link>
+      <pubDate>Sat, 18 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>bforrest.com/post/2012-08-18-e-star-trade-has-buggy-client-side-javascript/</guid>
+      <description>Once a month I get a little reminder that I need to go pay my e*Trade credit card bill. Every month for as long as I can remember I&amp;rsquo;ve tried to use their user interface to pay off my current balance and been told by an error dialog that my selection is not valid.
+I have clearly selected a frequency of &amp;ldquo;One Time&amp;rdquo; and not &amp;ldquo;Once a Month&amp;rdquo; as the dialog box indicates.</description>
+    </item>
+    
+    <item>
+      <title>console.log anywhere</title>
+      <link>bforrest.com/post/2012-08-05-console-dot-log-anywhere/</link>
+      <pubDate>Sun, 05 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>bforrest.com/post/2012-08-05-console-dot-log-anywhere/</guid>
+      <description>My current assingment for Improvinghas me writing much more client-side javascript. I&amp;rsquo;m not a javascript ninja, so I lean on the console window to confirm that the script is doing what I expected it to do. This approach works great until I view a page in IE, which has no clue what &amp;ldquo;console&amp;rdquo; means and acosts me with script error popups.
+This finally got annoying enough that I started looking for a universal solution.</description>
+    </item>
+    
+  </channel>
+</rss>

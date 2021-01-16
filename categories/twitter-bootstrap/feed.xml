@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Twitter Bootstrap on Transparency, Inspection, and Adaptation</title>
+    <link>bforrest.com/categories/twitter-bootstrap/</link>
+    <description>Recent content in Twitter Bootstrap on Transparency, Inspection, and Adaptation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Apr 2012 00:00:00 +0000</lastBuildDate><atom:link href="bforrest.com/categories/twitter-bootstrap/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fixed Navigation Bar With Twitter Bootstrap</title>
+      <link>bforrest.com/post/2012-04-18-fixed-navigation-bar-with-twitter-bootstrap/</link>
+      <pubDate>Wed, 18 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>bforrest.com/post/2012-04-18-fixed-navigation-bar-with-twitter-bootstrap/</guid>
+      <description>Twitter Bootstrap has many very interesting features available. I really liked their fixed sub navigation menus for the feature pages. As you scroll past the subnavigation, it docs with the top of the scroll window and stays there. It also enables click navigation to other feature sections.
+I wanted to have the same functionality for my own html pages, so I started digging around. Looking at the page source, I saw an include for &amp;ldquo;/js/application.</description>
+    </item>
+    
+  </channel>
+</rss>

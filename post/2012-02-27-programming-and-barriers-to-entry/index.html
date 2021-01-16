@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Programming &amp; Barriers to Entry // Transparency, Inspection, and Adaptation</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.79.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Barry Forrest" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="/bforrest.com/css/main.min.f415ed1c0d3d708d872a448547a29d554e32466a1371499be8307e93af5834a4.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Programming &amp; Barriers to Entry"/>
+<meta name="twitter:description" content="A fellow learner has posted &ldquo;Programming &amp; Barriers to Entry&rdquo;. Cori has much to say in this article concentrated around command line tools, vim and Ruby. I’d like to comment on some of the perceptions and share my own opinions.
+I picked up on some discord with regard to this type of interaction.
+…Intellisense (or lack thereof). Ctrl-spacebar is my friend. It’s what I’ve grown to love. Typing /?—&gt;enter—&gt;up-arrow—&gt;space—&gt;command-I-really-need is a bit of a PITA."/>
+
+    <meta property="og:title" content="Programming &amp; Barriers to Entry" />
+<meta property="og:description" content="A fellow learner has posted &ldquo;Programming &amp; Barriers to Entry&rdquo;. Cori has much to say in this article concentrated around command line tools, vim and Ruby. I’d like to comment on some of the perceptions and share my own opinions.
+I picked up on some discord with regard to this type of interaction.
+…Intellisense (or lack thereof). Ctrl-spacebar is my friend. It’s what I’ve grown to love. Typing /?—&gt;enter—&gt;up-arrow—&gt;space—&gt;command-I-really-need is a bit of a PITA." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="bforrest.com/post/2012-02-27-programming-and-barriers-to-entry/" />
+<meta property="article:published_time" content="2012-02-27T00:00:00+00:00" />
+<meta property="article:modified_time" content="2012-02-27T00:00:00+00:00" />
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="bforrest.com"><img class="app-header-avatar" src="https://media-exp1.licdn.com/dms/image/C4E03AQEDZ87557iabg/profile-displayphoto-shrink_400_400/0/1608733097458?e=1614816000&amp;v=beta&amp;t=PCII9ezeGZFaBpGxkL5xfIcViqiTFlRWcy8hyRGWKHg" alt="Barry Forrest" /></a>
+      <h1>Transparency, Inspection, and Adaptation</h1>
+      <nav class="app-header-menu">
+          <a class="app-header-menu-item" href="bforrest.com/about/about">About</a>
+             - 
+          
+          <a class="app-header-menu-item" href="bforrest.com/">Home</a>
+             - 
+          
+          <a class="app-header-menu-item" href="bforrest.com/tags/">Tags</a>
+             - 
+          
+          <a class="app-header-menu-item" href="bforrest.com/talks/">Talks</a>
+      </nav>
+      <p>My agile journey as developer, scrum master and padawan coach.</p>
+      <div class="app-header-social">
+        
+          <a target="_blank" href="https://github.com/bforrest" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg></a>
+        
+          <a target="_blank" href="https://twitter.com/bforrest30" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-twitter">
+  <title>twitter</title>
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+</svg></a>
+        
+          <a target="_blank" href="https://www.linkedin.com/in/barryforrest/" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-linkedin">
+  <title>linkedin</title>
+  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle>
+</svg></a>
+        
+          <a target="_blank" href="/feed.xml" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-rss">
+  <title>rss</title>
+  <path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle>
+</svg></a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Programming &amp; Barriers to Entry</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Feb 27, 2012
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          3 min read
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <p>A <a href="https://twitter.com/#!/coridrew">fellow learner</a> has posted <a href="http://truncatedcodr.wordpress.com/2012/01/25/programming-barriers-to-entry/">&ldquo;Programming &amp; Barriers to Entry&rdquo;</a>. Cori has much to say in this article concentrated around command line tools, vim and Ruby. I’d like to comment on some of the perceptions and share my own opinions.</p>
+<!-- raw HTML omitted -->
+<p>I picked up on some discord with regard to this type of interaction.</p>
+<!-- raw HTML omitted -->
+<p>…Intellisense (or lack thereof).  Ctrl-spacebar is my friend. It’s what I’ve grown to love. Typing /?—&gt;enter—&gt;up-arrow—&gt;space—&gt;command-I-really-need is a bit of a PITA. It feels like a clunky waste of time.</p>
+<!-- raw HTML omitted -->
+<p>Aren’t these the same type of interaction? CTL+Space pops up a list of available commands, arrow up/down to select and hit enter to paste that text into the window. Granted Intellisense is more polished and will show all of the overloads, but I honestly have a difficult time understanding the difference.</p>
+<p><a href="http://gitimmersion.com">Git Immersion</a> was very helpful for ramping up quickly with Git. Git is just a plate full of awesome. I can get tons done with four basic commands after I can Alt+Tab to  my bash shell:</p>
+<pre><code>git checkout -b working_branch #separates my code from the herd.
+
+git status #to see all of the files that I've modified since my last checkin. 
+
+git add . #readies them to be committed to the local repository.
+
+git commit -m &amp;#8216;checkin comment&amp;#8217; #stores them away. 
+</code></pre><p>I don&rsquo;t have to right-click anything! Since I&rsquo;m working locally, I&rsquo;m not at the mercy of a flaky connection to a central server. When I want to diff files, that happens locally too.</p>
+<p>I&rsquo;ve got BeyondCompare set up so in the bach shell I can use</p>
+<pre><code>git difftool
+</code></pre><p>and then roll through all of the files that I&rsquo;ve changed and it&rsquo;s pretty snappy.</p>
+<pre><code>gitk all
+</code></pre><p>Shows the entire history of the repository</p>
+<pre><code>gitk filename
+</code></pre><p>Will do the same for a single file.</p>
+<p>There is a git gui as well as  <a href="http://code.google.com/p/tortoisegit/">Tortoise Git</a> to go along with Caleb&rsquo;s favorite.</p>
+<!-- raw HTML omitted -->
+<p>It is a very powerful text editor. It really is language agnostic and enables development in a huge variety of languages. Visual Studio, not so much. I started fooling with VIM when I started doing the Ruby Koans. I stumbled through the help tutorial a few times over several months and got the hang of using VIM for navigating documents with the home row keys and pattern matching searches. I try to use it when I’m not doing .net development, but I’m still staying in the shallow end of the pool. I’m still much more comfortable navigating a C# project with Resharper/CodeRush inside VS than I think I’ll ever be with VIM, but VS has a 10 year head start.</p>
+<!-- raw HTML omitted -->
+<p>There seems to be a strong correlation between Macs and Ruby developers among <!-- raw HTML omitted -->Hack Club<!-- raw HTML omitted --> attendees. Many of the folks who attend do own Macs. <!-- raw HTML omitted -->Improving Enterprises<!-- raw HTML omitted -->, my employer and sponsor of many wonderful user groups, has an amazing employee purchase plan for computers and many of the consultants take full advantage of that benefit. Several of the Macs at Hack Club are running Windows 7 in native mode and many more are running Windows 7 via VMWare Fusion of Parallels.</p>
+<p>I’d hazard a guess that <!-- raw HTML omitted -->Greg Vaughn<!-- raw HTML omitted --> is in the minority and using Ruby in OSX. <!-- raw HTML omitted -->Amir<!-- raw HTML omitted --> boots to Windows natively via BootCamp and I believe does all of his Ruby development under Windows. I’ve installed Ruby 1.9 in my VMWare instance and use Growl For Windows and a ruby command prompt for SpecWatchr when I’m deliberately practicing BDD through the beauty of <!-- raw HTML omitted -->NSpec<!-- raw HTML omitted -->. Ruby in this group is more about learning something new since most of the crew work in .net for paychecks.</p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
