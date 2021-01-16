@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hacking on Transparency, Inspection, and Adaptation</title>
-    <link>bforrest.com/categories/hacking/</link>
+    <link>/categories/hacking/</link>
     <description>Recent content in hacking on Transparency, Inspection, and Adaptation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Apr 2012 00:00:00 +0000</lastBuildDate><atom:link href="bforrest.com/categories/hacking/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Apr 2012 00:00:00 +0000</lastBuildDate><atom:link href="/categories/hacking/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Adding CoderWall Badges</title>
-      <link>bforrest.com/post/2012-04-22-adding-coderwall-badges/</link>
+      <link>/post/2012-04-22-adding-coderwall-badges/</link>
       <pubDate>Sun, 22 Apr 2012 00:00:00 +0000</pubDate>
       
-      <guid>bforrest.com/post/2012-04-22-adding-coderwall-badges/</guid>
+      <guid>/post/2012-04-22-adding-coderwall-badges/</guid>
       <description>I&amp;rsquo;ve picked up a few badges via CoderWall and I wanted to include them on the blog with the rest of the information in the right side column.
 CoderWall has instructions under the sub heading &amp;ldquo;Official blog badge&amp;rdquo; that detail how to interact with their web api for retrieving badges. My main investigation was how and where to include these snippets within the octopress templates.
 The comments included in the Octopress _config.</description>
@@ -20,10 +20,10 @@ The comments included in the Octopress _config.</description>
     
     <item>
       <title>Fixed Navigation Bar With Twitter Bootstrap</title>
-      <link>bforrest.com/post/2012-04-18-fixed-navigation-bar-with-twitter-bootstrap/</link>
+      <link>/post/2012-04-18-fixed-navigation-bar-with-twitter-bootstrap/</link>
       <pubDate>Wed, 18 Apr 2012 00:00:00 +0000</pubDate>
       
-      <guid>bforrest.com/post/2012-04-18-fixed-navigation-bar-with-twitter-bootstrap/</guid>
+      <guid>/post/2012-04-18-fixed-navigation-bar-with-twitter-bootstrap/</guid>
       <description>Twitter Bootstrap has many very interesting features available. I really liked their fixed sub navigation menus for the feature pages. As you scroll past the subnavigation, it docs with the top of the scroll window and stays there. It also enables click navigation to other feature sections.
 I wanted to have the same functionality for my own html pages, so I started digging around. Looking at the page source, I saw an include for &amp;ldquo;/js/application.</description>
     </item>

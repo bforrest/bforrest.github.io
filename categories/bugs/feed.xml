@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bugs on Transparency, Inspection, and Adaptation</title>
-    <link>bforrest.com/categories/bugs/</link>
+    <link>/categories/bugs/</link>
     <description>Recent content in bugs on Transparency, Inspection, and Adaptation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Aug 2012 00:00:00 +0000</lastBuildDate><atom:link href="bforrest.com/categories/bugs/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Aug 2012 00:00:00 +0000</lastBuildDate><atom:link href="/categories/bugs/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>e*trade has buggy client-side javascript</title>
-      <link>bforrest.com/post/2012-08-18-e-star-trade-has-buggy-client-side-javascript/</link>
+      <link>/post/2012-08-18-e-star-trade-has-buggy-client-side-javascript/</link>
       <pubDate>Sat, 18 Aug 2012 00:00:00 +0000</pubDate>
       
-      <guid>bforrest.com/post/2012-08-18-e-star-trade-has-buggy-client-side-javascript/</guid>
+      <guid>/post/2012-08-18-e-star-trade-has-buggy-client-side-javascript/</guid>
       <description>Once a month I get a little reminder that I need to go pay my e*Trade credit card bill. Every month for as long as I can remember I&amp;rsquo;ve tried to use their user interface to pay off my current balance and been told by an error dialog that my selection is not valid.
 I have clearly selected a frequency of &amp;ldquo;One Time&amp;rdquo; and not &amp;ldquo;Once a Month&amp;rdquo; as the dialog box indicates.</description>
     </item>

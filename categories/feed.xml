@@ -2,179 +2,179 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Transparency, Inspection, and Adaptation</title>
-    <link>bforrest.com/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on Transparency, Inspection, and Adaptation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Sep 2017 00:00:00 +0000</lastBuildDate><atom:link href="bforrest.com/categories/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Sep 2017 00:00:00 +0000</lastBuildDate><atom:link href="/categories/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>agile</title>
-      <link>bforrest.com/categories/agile/</link>
+      <link>/categories/agile/</link>
       <pubDate>Sat, 30 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>bforrest.com/categories/agile/</guid>
+      <guid>/categories/agile/</guid>
       <description></description>
     </item>
     
     <item>
       <title>brewing</title>
-      <link>bforrest.com/categories/brewing/</link>
+      <link>/categories/brewing/</link>
       <pubDate>Sat, 30 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>bforrest.com/categories/brewing/</guid>
+      <guid>/categories/brewing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>coaching</title>
-      <link>bforrest.com/categories/coaching/</link>
+      <link>/categories/coaching/</link>
       <pubDate>Tue, 26 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>bforrest.com/categories/coaching/</guid>
+      <guid>/categories/coaching/</guid>
       <description></description>
     </item>
     
     <item>
       <title>conferences</title>
-      <link>bforrest.com/categories/conferences/</link>
+      <link>/categories/conferences/</link>
       <pubDate>Tue, 26 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>bforrest.com/categories/conferences/</guid>
+      <guid>/categories/conferences/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blog</title>
-      <link>bforrest.com/categories/blog/</link>
+      <link>/categories/blog/</link>
       <pubDate>Mon, 07 Jan 2013 00:00:00 +0000</pubDate>
       
-      <guid>bforrest.com/categories/blog/</guid>
+      <guid>/categories/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MVC</title>
-      <link>bforrest.com/categories/mvc/</link>
+      <link>/categories/mvc/</link>
       <pubDate>Mon, 07 Jan 2013 00:00:00 +0000</pubDate>
       
-      <guid>bforrest.com/categories/mvc/</guid>
+      <guid>/categories/mvc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TIL</title>
-      <link>bforrest.com/categories/til/</link>
+      <link>/categories/til/</link>
       <pubDate>Mon, 07 Jan 2013 00:00:00 +0000</pubDate>
       
-      <guid>bforrest.com/categories/til/</guid>
+      <guid>/categories/til/</guid>
       <description></description>
     </item>
     
     <item>
       <title>WebForms</title>
-      <link>bforrest.com/categories/webforms/</link>
+      <link>/categories/webforms/</link>
       <pubDate>Mon, 07 Jan 2013 00:00:00 +0000</pubDate>
       
-      <guid>bforrest.com/categories/webforms/</guid>
+      <guid>/categories/webforms/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bugs</title>
-      <link>bforrest.com/categories/bugs/</link>
+      <link>/categories/bugs/</link>
       <pubDate>Sat, 18 Aug 2012 00:00:00 +0000</pubDate>
       
-      <guid>bforrest.com/categories/bugs/</guid>
+      <guid>/categories/bugs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>JavaScript</title>
-      <link>bforrest.com/categories/javascript/</link>
+      <link>/categories/javascript/</link>
       <pubDate>Sat, 18 Aug 2012 00:00:00 +0000</pubDate>
       
-      <guid>bforrest.com/categories/javascript/</guid>
+      <guid>/categories/javascript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bootstrap</title>
-      <link>bforrest.com/categories/bootstrap/</link>
+      <link>/categories/bootstrap/</link>
       <pubDate>Mon, 30 Apr 2012 00:00:00 +0000</pubDate>
       
-      <guid>bforrest.com/categories/bootstrap/</guid>
+      <guid>/categories/bootstrap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hacking</title>
-      <link>bforrest.com/categories/hacking/</link>
+      <link>/categories/hacking/</link>
       <pubDate>Sun, 22 Apr 2012 00:00:00 +0000</pubDate>
       
-      <guid>bforrest.com/categories/hacking/</guid>
+      <guid>/categories/hacking/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CSS</title>
-      <link>bforrest.com/categories/css/</link>
+      <link>/categories/css/</link>
       <pubDate>Wed, 18 Apr 2012 00:00:00 +0000</pubDate>
       
-      <guid>bforrest.com/categories/css/</guid>
+      <guid>/categories/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Twitter Bootstrap</title>
-      <link>bforrest.com/categories/twitter-bootstrap/</link>
+      <link>/categories/twitter-bootstrap/</link>
       <pubDate>Wed, 18 Apr 2012 00:00:00 +0000</pubDate>
       
-      <guid>bforrest.com/categories/twitter-bootstrap/</guid>
+      <guid>/categories/twitter-bootstrap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blogging</title>
-      <link>bforrest.com/categories/blogging/</link>
+      <link>/categories/blogging/</link>
       <pubDate>Mon, 16 Apr 2012 00:00:00 +0000</pubDate>
       
-      <guid>bforrest.com/categories/blogging/</guid>
+      <guid>/categories/blogging/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Social</title>
-      <link>bforrest.com/categories/social/</link>
+      <link>/categories/social/</link>
       <pubDate>Mon, 27 Feb 2012 00:00:00 +0000</pubDate>
       
-      <guid>bforrest.com/categories/social/</guid>
+      <guid>/categories/social/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Entity Framework</title>
-      <link>bforrest.com/categories/entity-framework/</link>
+      <link>/categories/entity-framework/</link>
       <pubDate>Thu, 25 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>bforrest.com/categories/entity-framework/</guid>
+      <guid>/categories/entity-framework/</guid>
       <description></description>
     </item>
     
     <item>
       <title>JS</title>
-      <link>bforrest.com/categories/js/</link>
+      <link>/categories/js/</link>
       <pubDate>Sun, 21 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>bforrest.com/categories/js/</guid>
+      <guid>/categories/js/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Patterns</title>
-      <link>bforrest.com/categories/patterns/</link>
+      <link>/categories/patterns/</link>
       <pubDate>Sun, 21 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>bforrest.com/categories/patterns/</guid>
+      <guid>/categories/patterns/</guid>
       <description></description>
     </item>
     

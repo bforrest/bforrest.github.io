@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>brewing on Transparency, Inspection, and Adaptation</title>
-    <link>bforrest.com/categories/brewing/</link>
+    <link>/categories/brewing/</link>
     <description>Recent content in brewing on Transparency, Inspection, and Adaptation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Sep 2017 00:00:00 +0000</lastBuildDate><atom:link href="bforrest.com/categories/brewing/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Sep 2017 00:00:00 +0000</lastBuildDate><atom:link href="/categories/brewing/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Agile and Brewing tags:[&#34;team dynamics&#34;]</title>
-      <link>bforrest.com/post/2017-09-30-agile-and-brewing/</link>
+      <link>/post/2017-09-30-agile-and-brewing/</link>
       <pubDate>Sat, 30 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>bforrest.com/post/2017-09-30-agile-and-brewing/</guid>
+      <guid>/post/2017-09-30-agile-and-brewing/</guid>
       <description>During an interview for Agile for Humans, Ryan asked me about parallels between agile and brewing. At the time I mostly blew it off. My thinking then was that the feedback loop was too long and the inspection bit was a tad too fuzzy. Ultimately there is a link with the inspection and adaptation.
 In my short home brewing arch, there have been many experiments. Most of them have worked, but a few have them haven&amp;rsquo;t been so stellar.</description>
     </item>
