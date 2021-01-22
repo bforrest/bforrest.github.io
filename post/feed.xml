@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Transparency, Inspection, and Adaptation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Dec 2020 14:04:46 -0600</lastBuildDate><atom:link href="/post/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Jan 2021 14:20:01 -0600</lastBuildDate><atom:link href="/post/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Github Readme</title>
+      <link>/post/github-readme/</link>
+      <pubDate>Fri, 22 Jan 2021 14:20:01 -0600</pubDate>
+      
+      <guid>/post/github-readme/</guid>
+      <description>I started this calendar year off without a development contract. Not surprisingly, updating all the profiles for my online presence became a priority and I started by updating my resume. My linkedin profile soon thereafter got a fresh coat of paint as well.
+This &amp;ldquo;freshening&amp;rdquo; must have caused a disturbance in the force. It wasn&amp;rsquo;t long before the magical tracking cookies of the internet aligned and I started seeing article suggestions for making my github readme more awesome.</description>
+    </item>
+    
     <item>
       <title>Fun With Hugo</title>
       <link>/post/fun-with-hugo/</link>
