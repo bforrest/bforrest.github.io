@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talks on Transparency, Inspection, and Adaptation</title>
+    <link>/talks/</link>
+    <description>Recent content in Talks on Transparency, Inspection, and Adaptation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Mar 2017 00:00:00 +0000</lastBuildDate><atom:link href="/talks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Talks</title>
+      <link>/talks/talks/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/talks/talks/</guid>
+      <description>Oops, We Inflicted DevOps on our Business&amp;ndash;Now What? with Allison Pollard It seems that everyone is aflutter with DevOps, the shiny new panacea for all of our software ailments. What technical goodness can DevOps bestow upon us? What riddles does it unlock for us as technologists? How do business goals align in order to wring the true value from DevOps?
+Delivering value faster is a desire of many business and IT leaders, and it often looks like a win-lose proposition to achieve it.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Transparency, Inspection, and Adaptation</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Transparency, Inspection, and Adaptation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Dec 2020 14:04:46 -0600</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cms</title>
+      <link>/tags/cms/</link>
+      <pubDate>Tue, 29 Dec 2020 14:04:46 -0600</pubDate>
+      
+      <guid>/tags/cms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>/tags/hugo/</link>
+      <pubDate>Tue, 29 Dec 2020 14:04:46 -0600</pubDate>
+      
+      <guid>/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>agility</title>
+      <link>/tags/agility/</link>
+      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/agility/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>conference</title>
+      <link>/tags/conference/</link>
+      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DISC</title>
+      <link>/tags/disc/</link>
+      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/disc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>team dynamics</title>
+      <link>/tags/team-dynamics/</link>
+      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/team-dynamics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>excellence</title>
+      <link>/tags/excellence/</link>
+      <pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/excellence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>involved</title>
+      <link>/tags/involved/</link>
+      <pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/involved/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>agile</title>
+      <link>/tags/agile/</link>
+      <pubDate>Wed, 08 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/agile/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

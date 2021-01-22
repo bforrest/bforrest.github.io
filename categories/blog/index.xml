@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog on Transparency, Inspection, and Adaptation</title>
+    <link>/categories/blog/</link>
+    <description>Recent content in blog on Transparency, Inspection, and Adaptation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Jan 2013 00:00:00 +0000</lastBuildDate><atom:link href="/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL =&gt; ReportViewer Control, Less is More</title>
+      <link>/post/2013-01-07-til-equals-reportviewer-control/</link>
+      <pubDate>Mon, 07 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2013-01-07-til-equals-reportviewer-control/</guid>
+      <description>Stop me if you&amp;rsquo;ve heard this one: &amp;ldquo;Their IT staff is going to take care of that development &amp;hellip;&amp;rdquo; And so it was recently on a project I am developing.
+A separate development activity was spun up to create the required SSRS reports which were to be hosted on a Report Server. Well the Report Server uses Active Directory accounts for authentication and authorization. The portal that I&amp;rsquo;m building essentially uses the ASP.</description>
+    </item>
+    
+    <item>
+      <title>e*trade has buggy client-side javascript</title>
+      <link>/post/2012-08-18-e-star-trade-has-buggy-client-side-javascript/</link>
+      <pubDate>Sat, 18 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2012-08-18-e-star-trade-has-buggy-client-side-javascript/</guid>
+      <description>Once a month I get a little reminder that I need to go pay my e*Trade credit card bill. Every month for as long as I can remember I&amp;rsquo;ve tried to use their user interface to pay off my current balance and been told by an error dialog that my selection is not valid.
+I have clearly selected a frequency of &amp;ldquo;One Time&amp;rdquo; and not &amp;ldquo;Once a Month&amp;rdquo; as the dialog box indicates.</description>
+    </item>
+    
+    <item>
+      <title>console.log anywhere</title>
+      <link>/post/2012-08-05-console-dot-log-anywhere/</link>
+      <pubDate>Sun, 05 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2012-08-05-console-dot-log-anywhere/</guid>
+      <description>My current assingment for Improvinghas me writing much more client-side javascript. I&amp;rsquo;m not a javascript ninja, so I lean on the console window to confirm that the script is doing what I expected it to do. This approach works great until I view a page in IE, which has no clue what &amp;ldquo;console&amp;rdquo; means and acosts me with script error popups.
+This finally got annoying enough that I started looking for a universal solution.</description>
+    </item>
+    
+    <item>
+      <title>Doesn&#39;t Play Well...</title>
+      <link>/post/2012-04-30-doesnt-play-well-dot-dot-dot/</link>
+      <pubDate>Mon, 30 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2012-04-30-doesnt-play-well-dot-dot-dot/</guid>
+      <description>I&amp;rsquo;ve been working on some &amp;ldquo;prototypes&amp;rdquo; for a new Improving client. One of our UX people told us to use Twitter Bootstrap and don&amp;rsquo;t look back.
+These prototypes are for a data entry focused application, so we&amp;rsquo;ve been using the Autocomplete Combobox to help speed things along. I tried to also use the bootstrap-buttons plugin in conjunction with it, but the buttons weren&amp;rsquo;t working as expected.
+I changed the markup to load the button plugin prior to the jquery ui script and the radio buttons looked and behaved as expected, but the auto complete comboboxes looked funky and were no longer acting like text boxes and default to select boxes.</description>
+    </item>
+    
+    <item>
+      <title>Adding CoderWall Badges</title>
+      <link>/post/2012-04-22-adding-coderwall-badges/</link>
+      <pubDate>Sun, 22 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2012-04-22-adding-coderwall-badges/</guid>
+      <description>I&amp;rsquo;ve picked up a few badges via CoderWall and I wanted to include them on the blog with the rest of the information in the right side column.
+CoderWall has instructions under the sub heading &amp;ldquo;Official blog badge&amp;rdquo; that detail how to interact with their web api for retrieving badges. My main investigation was how and where to include these snippets within the octopress templates.
+The comments included in the Octopress _config.</description>
+    </item>
+    
+    <item>
+      <title>Fixed Navigation Bar With Twitter Bootstrap</title>
+      <link>/post/2012-04-18-fixed-navigation-bar-with-twitter-bootstrap/</link>
+      <pubDate>Wed, 18 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2012-04-18-fixed-navigation-bar-with-twitter-bootstrap/</guid>
+      <description>Twitter Bootstrap has many very interesting features available. I really liked their fixed sub navigation menus for the feature pages. As you scroll past the subnavigation, it docs with the top of the scroll window and stays there. It also enables click navigation to other feature sections.
+I wanted to have the same functionality for my own html pages, so I started digging around. Looking at the page source, I saw an include for &amp;ldquo;/js/application.</description>
+    </item>
+    
+    <item>
+      <title>Everything Old is New Again</title>
+      <link>/post/2012-04-16-everything-old-is-new-again/</link>
+      <pubDate>Mon, 16 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2012-04-16-everything-old-is-new-again/</guid>
+      <description>I spent some time over the weekend dragging along old posts from my tumblr blog that deal with programming. I didn&amp;rsquo;t bother with the instagram pictures or the four square checkins. After a few failed attempts to get the tumblr posts where the were suposed to be, I opted to stash them in a working directory and move them by hand.
+Now all of my &amp;lt;scarcasm&amp;gt;glorious code related posts&amp;lt;/sarcasm&amp;gt; are in one place, it&amp;rsquo;s time to dust up some posts about my shiny new play things Twitter Bootstrap Octopress and Markdown.</description>
+    </item>
+    
+    <item>
+      <title>Programming &amp; Barriers to Entry</title>
+      <link>/post/2012-02-27-programming-and-barriers-to-entry/</link>
+      <pubDate>Mon, 27 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2012-02-27-programming-and-barriers-to-entry/</guid>
+      <description>A fellow learner has posted &amp;ldquo;Programming &amp;amp; Barriers to Entry&amp;rdquo;. Cori has much to say in this article concentrated around command line tools, vim and Ruby. I’d like to comment on some of the perceptions and share my own opinions.
+I picked up on some discord with regard to this type of interaction.
+…Intellisense (or lack thereof). Ctrl-spacebar is my friend. It’s what I’ve grown to love. Typing /?—&amp;gt;enter—&amp;gt;up-arrow—&amp;gt;space—&amp;gt;command-I-really-need is a bit of a PITA.</description>
+    </item>
+    
+    <item>
+      <title>treetrim: Trims source code trees</title>
+      <link>/post/2012-01-21-tree-trim-source-cleaner/</link>
+      <pubDate>Sat, 21 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2012-01-21-tree-trim-source-cleaner/</guid>
+      <description>Treetrim:
+I’ve used this spiffy utility many times. Every time I see a need for it, I’m working on a PC that doesn’t have it installed and I can never remember the magic incantation that allowed Google to reveal it to me. So, since I’m starting to suffer from old-timers, I’ll keep a handy link for it right here ;-)</description>
+    </item>
+    
+    <item>
+      <title>EF Code First &amp; AppHarbor</title>
+      <link>/post/2011-08-25-ef-code-first-and-appharbor/</link>
+      <pubDate>Thu, 25 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2011-08-25-ef-code-first-and-appharbor/</guid>
+      <description>Since my employer, Improving lined me up a new gig that uses Entity Framework Code First, I thought I kick off a learning side project with MVC3 and deploy it to AppHarbor. Everything seemed simple enough. Use Nuget to install the code first bits, hammer out a couple of model and a datacontext and BOOM! data goes into a database.
+It wasn’t anything pretty, but I was ready to deploy it to AppHarbor.</description>
+    </item>
+    
+    <item>
+      <title>Javascript Programming Patterns</title>
+      <link>/post/2011-08-21-javascript-programming-patterns/</link>
+      <pubDate>Sun, 21 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2011-08-21-javascript-programming-patterns/</guid>
+      <description>Javascript Programming Patterns
+Nice reference material that I got from JR Garcia
+I’ve been away from web development for just a bit too long and have a lot of catching up to do with respect to all of the great work going on in the javascript space.</description>
+    </item>
+    
+    <item>
+      <title>Css for Developers from Dallas TechFest</title>
+      <link>/post/2011-08-16-css-for-developers/</link>
+      <pubDate>Tue, 16 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2011-08-16-css-for-developers/</guid>
+      <description>Here are some of my take aways from Eric Sowell&amp;rsquo;s presentation at theDallas Tech Fest
+ Semantic markup makes reading html simpler Modernizer of Html5Shim make older browsers work with semantic tags Using a “css reset” can save you lots of grief and frustration  The css reset Eric used came from Eric Meyer’s site. I&amp;rsquo;ve seen settings in the Blueprint Css style sheets.
+I also heard the phrase “In general, you should be more specific;.</description>
+    </item>
+    
+    <item>
+      <title>The Flat Tire Principle for Source Control</title>
+      <link>/post/2011-05-10-the-flat-tire-principle-for-source-control/</link>
+      <pubDate>Tue, 10 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2011-05-10-the-flat-tire-principle-for-source-control/</guid>
+      <description>The Flat Tire Principle for Source Control
+Here’s an oldie but a a goody by Eric Hexter on why you should source control your dependencies and 3rd party libraries. He uses an automobile which carries all the tools required to replace a flat tire to illustrate how we should treat our source control systems. Anything that code depends on to do it’s job should be stored in the same version control system right along side of the code.</description>
+    </item>
+    
+    <item>
+      <title>Why Johnny can’t build a decent user interface.</title>
+      <link>/post/2011-04-23-why-johnny-cant-build-a-decent-ui/</link>
+      <pubDate>Sat, 23 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2011-04-23-why-johnny-cant-build-a-decent-ui/</guid>
+      <description>Why Johnny can’t build a decent user interface.An interesting read by Jeffrey Ellis that I picked up from a @shanselmantweet. It is a reminder of why I write software -&amp;gt; for end users to get something done. There’s a list of questions that I need to keep top of mind when developing applications:
++Who are the users
++What are their goals
++What are their tasks
++What information do the users need in order to accomplish those tasks</description>
+    </item>
+    
+  </channel>
+</rss>
