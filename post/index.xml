@@ -1,12 +1,145 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>blog on Transparency, Inspection, and Adaptation</title>
-    <link>bforrest.github.io/categories/blog/</link>
-    <description>Recent content in blog on Transparency, Inspection, and Adaptation</description>
+    <title>Posts on Transparency, Inspection, and Adaptation</title>
+    <link>bforrest.github.io/post/</link>
+    <description>Recent content in Posts on Transparency, Inspection, and Adaptation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Jan 2013 00:00:00 +0000</lastBuildDate><atom:link href="bforrest.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Jan 2021 14:20:01 -0600</lastBuildDate><atom:link href="bforrest.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Github Readme</title>
+      <link>bforrest.github.io/post/github-readme/</link>
+      <pubDate>Fri, 22 Jan 2021 14:20:01 -0600</pubDate>
+      
+      <guid>bforrest.github.io/post/github-readme/</guid>
+      <description>I started this calendar year off without a development contract. Not surprisingly, updating all the profiles for my online presence became a priority and I started by updating my resume. My linkedin profile soon thereafter got a fresh coat of paint as well.
+This &amp;ldquo;freshening&amp;rdquo; must have caused a disturbance in the force. It wasn&amp;rsquo;t long before the magical tracking cookies of the internet aligned and I started seeing article suggestions for making my github readme more awesome.</description>
+    </item>
+    
+    <item>
+      <title>Fun With Hugo</title>
+      <link>bforrest.github.io/post/fun-with-hugo/</link>
+      <pubDate>Tue, 29 Dec 2020 14:04:46 -0600</pubDate>
+      
+      <guid>bforrest.github.io/post/fun-with-hugo/</guid>
+      <description>Fun With Hugo It seems every time that the Muse inspires me to hammer out a blog post I spend most of my time caring for and feeding Dependabot or wrestling with ruby gems. In an effort ot reduce that maintenance cycle I took advantage of a PragProg Thanksgiving offer and purchased Brian P. Hogan&amp;rsquo;s very helpful Build Websites with Hugo.
+I followed along with Brian&amp;rsquo;s example site and learned some neat things about the archetypes and creating themes which will be very handy when I get to work on my home-brewed beer site and need templates for the beer styles and recipes.</description>
+    </item>
+    
+    <item>
+      <title>Forbidden Island Team Dynamics</title>
+      <link>bforrest.github.io/post/2019-06-11-forbidden-island-team-dynamics/</link>
+      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>bforrest.github.io/post/2019-06-11-forbidden-island-team-dynamics/</guid>
+      <description>While at The Path to Agility 2019, I had the pleasure of attending Team Dynamics on the Forbidden Island, hosted by Paul Boos . This session used a co-operative table-top game, Forbidden Island to explore team dynamics and illustrate Tuckman’s stages of group development- “storming, forming, norming, performing&amp;quot;
+Here’s the publisher’s description of the game:
+ Join a team of fearless adventurers on a do-or-die mission to capture four sacred treasures from the ruins of this perilous paradise.</description>
+    </item>
+    
+    <item>
+      <title>Involvement With Resilience</title>
+      <link>bforrest.github.io/post/2019-01-06-involvement-with-resilience/</link>
+      <pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>bforrest.github.io/post/2019-01-06-involvement-with-resilience/</guid>
+      <description>Finding brews to keep everyone happy is no small feat. Care and feeding of the twin kegerators&amp;quot;_blank&amp;quot;} at the Dallas Improving office has been my side job for about six years. Yes, I&amp;rsquo;ve done extensive market research. I&amp;rsquo;ve met many people who are passionate about their products, community, and profession. The depth of involvement and connection within the brewing community is amazing.
+In June, I attended Ken Grossman&amp;rsquo;s keynote talk, &amp;ldquo;Lessons I’ve Learned in 50 Years of Brewing&amp;rdquo;, at Home Brew Con 2018.</description>
+    </item>
+    
+    <item>
+      <title>Brewing For A Cause</title>
+      <link>bforrest.github.io/post/2019-01-05-brewing-for-a-cause/</link>
+      <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>bforrest.github.io/post/2019-01-05-brewing-for-a-cause/</guid>
+      <description>To make a really long and detailed story short: I brewed the home version of this delicious beer to help out with the fund raising. It will be on tap at the Improving Dallas office starting on January 10th. Here&amp;rsquo;s the link to a GoFundMe which feeds directly into the fund created by Sierra Nevada.
+Longer More Detailed Version November 8th a wild fire, later named Camp Fire, broke out in Chico, California.</description>
+    </item>
+    
+    <item>
+      <title>The Act of Transforming</title>
+      <link>bforrest.github.io/post/2018-08-08-the-act-of-transforming/</link>
+      <pubDate>Wed, 08 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>bforrest.github.io/post/2018-08-08-the-act-of-transforming/</guid>
+      <description>What does transformation mean for an organization of people? Organizations treat an agile transformation as a singular event. It is a budgetary line item, a noun, a one-time metamorphosis from caterpillar to butterfly. Expert agilists who have “been there, done that” are sought to guide the transformation. While one gains credibility by having “been there, done that,” what impact does that have on our vision? How does this distort our ability to be empathetic?</description>
+    </item>
+    
+    <item>
+      <title>Lose the lies</title>
+      <link>bforrest.github.io/post/2018-02-21-lose-the-lies/</link>
+      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>bforrest.github.io/post/2018-02-21-lose-the-lies/</guid>
+      <description>An interview that Patty McCord did to publicize her new book bubbled up in a social media stream. A few friends commented about the powerful truths she was telling, so I followed the link.
+Here are some excerpts from that Patty McCord interview which resonated with me:
+ &amp;hellip;we’re gonna be your paternalistic employer for the rest of your life and provide you with career ladders and promotions forever. It hasn’t been true for 30 years, and it’s certainly not true now.</description>
+    </item>
+    
+    <item>
+      <title>Was It Worth It?</title>
+      <link>bforrest.github.io/post/2018-01-02-was-it-worth-it/</link>
+      <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>bforrest.github.io/post/2018-01-02-was-it-worth-it/</guid>
+      <description>A few of us from the office headed out to an acclaimed BBQ joint during the holiday lull between Christmas and New Years. I expected the last workday of the year to be slow with a bunch of the workforce out on vacation. Boy was I wrong.
+When we arrived, the line snaked from the cash register, around all of the picnic tables and looped back upon itself once without making anyone wait in the cold.</description>
+    </item>
+    
+    <item>
+      <title>Demotivation</title>
+      <link>bforrest.github.io/post/2017-10-10-fearless-leader/</link>
+      <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>bforrest.github.io/post/2017-10-10-fearless-leader/</guid>
+      <description>Here&amp;rsquo;s a flashback from the late winter of 2015 in a winning environment: Starting a team meeting with a mass scolding isn&amp;rsquo;t that great of an idea. But it seems to have become the modus operandi of Fearless Leader at Mega-Corp.
+He chose to start the new year something like this: Why is everyone late? This is important and everyone should be on time. (Never mind that the last three scheduled meetings had been cancelled at the last instant)</description>
+    </item>
+    
+    <item>
+      <title>Agile and Brewing tags:[&#34;team dynamics&#34;]</title>
+      <link>bforrest.github.io/post/2017-09-30-agile-and-brewing/</link>
+      <pubDate>Sat, 30 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>bforrest.github.io/post/2017-09-30-agile-and-brewing/</guid>
+      <description>During an interview for Agile for Humans, Ryan asked me about parallels between agile and brewing. At the time I mostly blew it off. My thinking then was that the feedback loop was too long and the inspection bit was a tad too fuzzy. Ultimately there is a link with the inspection and adaptation.
+In my short home brewing arch, there have been many experiments. Most of them have worked, but a few have them haven&amp;rsquo;t been so stellar.</description>
+    </item>
+    
+    <item>
+      <title>A Journey Begins</title>
+      <link>bforrest.github.io/post/2017-09-26-a-journey-begins/</link>
+      <pubDate>Tue, 26 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>bforrest.github.io/post/2017-09-26-a-journey-begins/</guid>
+      <description>What happens when an agile CTI coach gets bored and knows someone that they believe has something to contribute to the agile software community? You basically get invited to co-present a conference talk, a helping hand to find your voice, plus an opportunity to start sharing your experience and point of view with others.
+Some time has passed and the memory has faded, so forgive me if I don&amp;rsquo;t get this exactly right in the telling of the story.</description>
+    </item>
+    
+    <item>
+      <title>Welcome Back</title>
+      <link>bforrest.github.io/post/2017-09-12-welcome-back/</link>
+      <pubDate>Tue, 12 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>bforrest.github.io/post/2017-09-12-welcome-back/</guid>
+      <description>It&amp;rsquo;s been awhile. I was gently shamed into this resurrection by a friendly text message - &amp;ldquo;YOU HAD A BLOG&amp;rdquo;. Certainly not the most impressive place for conference attendees to see what I&amp;rsquo;ve been up to and what I&amp;rsquo;m about.
+Let&amp;rsquo;s correct that now.</description>
+    </item>
+    
+    <item>
+      <title>Brewing Great Agile Team Dynamics</title>
+      <link>bforrest.github.io/post/2017-03-01-brewing-great-agile-team-dynamics/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>bforrest.github.io/post/2017-03-01-brewing-great-agile-team-dynamics/</guid>
+      <description>Ever find yourself making a sour face after talking to a coworker?
+Wishing your team meetings felt more like an engaging social hour?
+There is hope. Those everyday conflicts where something seems “off” after a conversation are often related to differences in communication styles. When team members understand themselves and others, there’s less conflict, more collaboration, and better working relationships.
+The DiSC model can help you understand why your team behaves the way it does and how to build trust for a more agile team.</description>
+    </item>
+    
     <item>
       <title>TIL =&gt; ReportViewer Control, Less is More</title>
       <link>bforrest.github.io/post/2013-01-07-til-equals-reportviewer-control/</link>
@@ -77,6 +210,15 @@ I wanted to have the same functionality for my own html pages, so I started digg
       <guid>bforrest.github.io/post/2012-04-16-everything-old-is-new-again/</guid>
       <description>I spent some time over the weekend dragging along old posts from my tumblr blog that deal with programming. I didn&amp;rsquo;t bother with the instagram pictures or the four square checkins. After a few failed attempts to get the tumblr posts where the were suposed to be, I opted to stash them in a working directory and move them by hand.
 Now all of my &amp;lt;scarcasm&amp;gt;glorious code related posts&amp;lt;/sarcasm&amp;gt; are in one place, it&amp;rsquo;s time to dust up some posts about my shiny new play things Twitter Bootstrap Octopress and Markdown.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>bforrest.github.io/post/2012-04-13-that-was-easy/</link>
+      <pubDate>Fri, 13 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>bforrest.github.io/post/2012-04-13-that-was-easy/</guid>
+      <description></description>
     </item>
     
     <item>

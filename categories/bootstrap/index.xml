@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bootstrap on Transparency, Inspection, and Adaptation</title>
-    <link>/categories/bootstrap/</link>
+    <link>bforrest.github.io/categories/bootstrap/</link>
     <description>Recent content in bootstrap on Transparency, Inspection, and Adaptation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Apr 2012 00:00:00 +0000</lastBuildDate><atom:link href="/categories/bootstrap/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Apr 2012 00:00:00 +0000</lastBuildDate><atom:link href="bforrest.github.io/categories/bootstrap/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Doesn&#39;t Play Well...</title>
-      <link>/post/2012-04-30-doesnt-play-well-dot-dot-dot/</link>
+      <link>bforrest.github.io/post/2012-04-30-doesnt-play-well-dot-dot-dot/</link>
       <pubDate>Mon, 30 Apr 2012 00:00:00 +0000</pubDate>
       
-      <guid>/post/2012-04-30-doesnt-play-well-dot-dot-dot/</guid>
+      <guid>bforrest.github.io/post/2012-04-30-doesnt-play-well-dot-dot-dot/</guid>
       <description>I&amp;rsquo;ve been working on some &amp;ldquo;prototypes&amp;rdquo; for a new Improving client. One of our UX people told us to use Twitter Bootstrap and don&amp;rsquo;t look back.
 These prototypes are for a data entry focused application, so we&amp;rsquo;ve been using the Autocomplete Combobox to help speed things along. I tried to also use the bootstrap-buttons plugin in conjunction with it, but the buttons weren&amp;rsquo;t working as expected.
 I changed the markup to load the button plugin prior to the jquery ui script and the radio buttons looked and behaved as expected, but the auto complete comboboxes looked funky and were no longer acting like text boxes and default to select boxes.</description>
