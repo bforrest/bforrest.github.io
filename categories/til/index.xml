@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>TIL on Transparency, Inspection, and Adaptation</title>
-    <link>bforrest.github.io/categories/til/</link>
+    <link>https://bforrest.com/categories/til/</link>
     <description>Recent content in TIL on Transparency, Inspection, and Adaptation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Jan 2013 00:00:00 +0000</lastBuildDate><atom:link href="bforrest.github.io/categories/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Jan 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://bforrest.com/categories/til/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TIL =&gt; ReportViewer Control, Less is More</title>
-      <link>bforrest.github.io/post/2013-01-07-til-equals-reportviewer-control/</link>
+      <link>https://bforrest.com/post/2013-01-07-til-equals-reportviewer-control/</link>
       <pubDate>Mon, 07 Jan 2013 00:00:00 +0000</pubDate>
       
-      <guid>bforrest.github.io/post/2013-01-07-til-equals-reportviewer-control/</guid>
+      <guid>https://bforrest.com/post/2013-01-07-til-equals-reportviewer-control/</guid>
       <description>Stop me if you&amp;rsquo;ve heard this one: &amp;ldquo;Their IT staff is going to take care of that development &amp;hellip;&amp;rdquo; And so it was recently on a project I am developing.
 A separate development activity was spun up to create the required SSRS reports which were to be hosted on a Report Server. Well the Report Server uses Active Directory accounts for authentication and authorization. The portal that I&amp;rsquo;m building essentially uses the ASP.</description>
     </item>
     
     <item>
       <title>Adding CoderWall Badges</title>
-      <link>bforrest.github.io/post/2012-04-22-adding-coderwall-badges/</link>
+      <link>https://bforrest.com/post/2012-04-22-adding-coderwall-badges/</link>
       <pubDate>Sun, 22 Apr 2012 00:00:00 +0000</pubDate>
       
-      <guid>bforrest.github.io/post/2012-04-22-adding-coderwall-badges/</guid>
+      <guid>https://bforrest.com/post/2012-04-22-adding-coderwall-badges/</guid>
       <description>I&amp;rsquo;ve picked up a few badges via CoderWall and I wanted to include them on the blog with the rest of the information in the right side column.
 CoderWall has instructions under the sub heading &amp;ldquo;Official blog badge&amp;rdquo; that detail how to interact with their web api for retrieving badges. My main investigation was how and where to include these snippets within the octopress templates.
 The comments included in the Octopress _config.</description>
@@ -30,20 +30,20 @@ The comments included in the Octopress _config.</description>
     
     <item>
       <title>treetrim: Trims source code trees</title>
-      <link>bforrest.github.io/post/2012-01-21-tree-trim-source-cleaner/</link>
+      <link>https://bforrest.com/post/2012-01-21-tree-trim-source-cleaner/</link>
       <pubDate>Sat, 21 Jan 2012 00:00:00 +0000</pubDate>
       
-      <guid>bforrest.github.io/post/2012-01-21-tree-trim-source-cleaner/</guid>
+      <guid>https://bforrest.com/post/2012-01-21-tree-trim-source-cleaner/</guid>
       <description>Treetrim:
 I’ve used this spiffy utility many times. Every time I see a need for it, I’m working on a PC that doesn’t have it installed and I can never remember the magic incantation that allowed Google to reveal it to me. So, since I’m starting to suffer from old-timers, I’ll keep a handy link for it right here ;-)</description>
     </item>
     
     <item>
       <title>Javascript Programming Patterns</title>
-      <link>bforrest.github.io/post/2011-08-21-javascript-programming-patterns/</link>
+      <link>https://bforrest.com/post/2011-08-21-javascript-programming-patterns/</link>
       <pubDate>Sun, 21 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>bforrest.github.io/post/2011-08-21-javascript-programming-patterns/</guid>
+      <guid>https://bforrest.com/post/2011-08-21-javascript-programming-patterns/</guid>
       <description>Javascript Programming Patterns
 Nice reference material that I got from JR Garcia
 I’ve been away from web development for just a bit too long and have a lot of catching up to do with respect to all of the great work going on in the javascript space.</description>
@@ -51,10 +51,10 @@ I’ve been away from web development for just a bit too long and have a lot of 
     
     <item>
       <title>Css for Developers from Dallas TechFest</title>
-      <link>bforrest.github.io/post/2011-08-16-css-for-developers/</link>
+      <link>https://bforrest.com/post/2011-08-16-css-for-developers/</link>
       <pubDate>Tue, 16 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>bforrest.github.io/post/2011-08-16-css-for-developers/</guid>
+      <guid>https://bforrest.com/post/2011-08-16-css-for-developers/</guid>
       <description>Here are some of my take aways from Eric Sowell&amp;rsquo;s presentation at theDallas Tech Fest
  Semantic markup makes reading html simpler Modernizer of Html5Shim make older browsers work with semantic tags Using a “css reset” can save you lots of grief and frustration  The css reset Eric used came from Eric Meyer’s site. I&amp;rsquo;ve seen settings in the Blueprint Css style sheets.
 I also heard the phrase “In general, you should be more specific;.</description>
@@ -62,10 +62,10 @@ I also heard the phrase “In general, you should be more specific;.</descriptio
     
     <item>
       <title>Why Johnny can’t build a decent user interface.</title>
-      <link>bforrest.github.io/post/2011-04-23-why-johnny-cant-build-a-decent-ui/</link>
+      <link>https://bforrest.com/post/2011-04-23-why-johnny-cant-build-a-decent-ui/</link>
       <pubDate>Sat, 23 Apr 2011 00:00:00 +0000</pubDate>
       
-      <guid>bforrest.github.io/post/2011-04-23-why-johnny-cant-build-a-decent-ui/</guid>
+      <guid>https://bforrest.com/post/2011-04-23-why-johnny-cant-build-a-decent-ui/</guid>
       <description>Why Johnny can’t build a decent user interface.An interesting read by Jeffrey Ellis that I picked up from a @shanselmantweet. It is a reminder of why I write software -&amp;gt; for end users to get something done. There’s a list of questions that I need to keep top of mind when developing applications:
 +Who are the users
 +What are their goals
