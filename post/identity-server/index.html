@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Identity Server 4 // Transparency, Inspection, and Adaptation</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.82.1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Barry Forrest" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://bforrest.com/css/main.min.1f33433458cf54f6f2efd1937112052045c441f4bbbbe71294d95a353cf5b8ed.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Identity Server 4"/>
+<meta name="twitter:description" content="Two years ago I created this draft. Today it is relevant to the client work that I am currently doing for another API project. Everything old is new again.
+My client&rsquo;s product helps customers manage collateralized loans. Customers asked for more openness in the product. To empower those customers the client wanted to create API endpoints. These endpoints required security.
+Identity Server was an interesting option to protect access to various web API endpoints."/>
+
+    <meta property="og:title" content="Identity Server 4" />
+<meta property="og:description" content="Two years ago I created this draft. Today it is relevant to the client work that I am currently doing for another API project. Everything old is new again.
+My client&rsquo;s product helps customers manage collateralized loans. Customers asked for more openness in the product. To empower those customers the client wanted to create API endpoints. These endpoints required security.
+Identity Server was an interesting option to protect access to various web API endpoints." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://bforrest.com/post/identity-server/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-06-20T08:47:12-05:00" />
+<meta property="article:modified_time" content="2021-06-20T08:47:12-05:00" />
+
+
+
+    </head>
+  <body>
+    <header class="app-header">
+      <a href="https://bforrest.com"><img class="app-header-avatar" src="/public/images/avatar.jpg" alt="Barry Forrest" /></a>
+      <h1>Transparency, Inspection, and Adaptation</h1>
+      <nav class="app-header-menu">
+          <a class="app-header-menu-item" href="/about/about">About</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/">Home</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/tags/">Tags</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/talks/">Talks</a>
+      </nav>
+      <p>My agile journey as developer, scrum master and padawan coach.</p>
+      <div class="app-header-social">
+        
+          <a target="_blank" href="https://github.com/bforrest" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg></a>
+        
+          <a target="_blank" href="https://twitter.com/bforrest30" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-twitter">
+  <title>twitter</title>
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+</svg></a>
+        
+          <a target="_blank" href="https://www.linkedin.com/in/barryforrest/" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-linkedin">
+  <title>linkedin</title>
+  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle>
+</svg></a>
+        
+          <a target="_blank" href="/feed" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-rss">
+  <title>rss</title>
+  <path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle>
+</svg></a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Identity Server 4</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Jun 20, 2021
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          4 min read
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <p>Two years ago I created this draft. Today it is relevant to the client work that I am currently doing for another API project. Everything old is new again.</p>
+<p>My client&rsquo;s product helps customers manage collateralized loans. Customers asked for more openness in the product. To empower those customers the client wanted to create API endpoints. These endpoints required security.</p>
+<p><a href="https://github.com/IdentityServer/IdentityServer4">Identity Server</a> was an interesting option to protect access to various web API endpoints. I dug into researching it and created a proof of concept application. An Active Directory authenticated user would need a token to access the API endpoint.</p>
+<p>My first attempt utilized the Resource Owner Password grant type. Since the user had already logged into a windows machine, I could reliably pass that username to the token service and get an authorization token. At a demonstration, skeptics greeted me. They worried, and rightly so, that there was a possibility of this being spoofed for nefarious intents. So I went back to the drawing board.</p>
+<p>How do I authenticate a &ldquo;native app&rdquo; without asking for a password?</p>
+<blockquote>
+<p>Think, think, think - in a Pooh Bear voice</p>
+</blockquote>
+<p>After a few failed attempts at google-fu, I found the magic incantation that revealed these gems:</p>
+<ul>
+<li><a href="https://tools.ietf.org/html/rfc8252">OAuth 2.0 for Native Apps</a></li>
+<li><a href="https://tools.ietf.org/html/rfc7636">Proof Key for Code Exchange by OAuth Public Clients</a></li>
+<li><a href="https://github.com/googlesamples/oauth-apps-for-windows">oauth apps for windows</a></li>
+</ul>
+<p>I&rsquo;d found the tools that I needed to allay fears of spoofing and interception. The Internet Engineering Task Force (IETF) recommended allowing a user&rsquo;s web browser to handle the authentication. I thought I was home free. I set about to integrate this grant type and the PKCE into my proof of concept application.</p>
+<p>At the end of the week, I demonstrated browser-based authentication and authorization. I fired up my identity server. Next, I started the secured API endpoint. Finally my surrogate desktop application with the magic &ldquo;authenticate&rdquo; button. When I clicked the button the default web browser opened as intended. The browser displayed a page with different authentication options.</p>
+<p>Choosing the &ldquo;Windows&rdquo; button started a complex dance. The web server and application negotiated the authentication mechanism. When the Kerberos ticket authentication handshake resolved the desktop application received an authentication code. The application traded the code for an authorization token.
+Authorization token in hand, a web request asked the endpoint for meaningful data. That data soon flooded the display. Ta-da! OAuth token authentication from a desktop as recommended by the IETF.</p>
+<p>The skeptics were not impressed. But why does the user need to click a button? And why do we need to show them the consent screen? Can&rsquo;t we just log them in without any of that interaction?</p>
+<p>I reasoned that the browser was already perfectly equipped to handle the redirects. Authentication negotiation and getting a Kerberos ticket on a desktop application without asking the user for a password was impossible for a reason. No one wanted to ask the user for a password. The less we and the application knew about the user account the better it would be for us.</p>
+<p>My marching orders became don&rsquo;t make the user click anything and don&rsquo;t show the grant consent screen. The latter request was by far the easier of the two. The client configuration settings for Identity Server make this easy:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">new</span> Client
+  {
+    RequireConsent = <span style="color:#66d9ef">false</span>
+  }
+</code></pre></div><p>That&rsquo;s all it took to hide the consent screen.</p>
+<p>Skipping the login button was trickier. I read through a variety of issues on the Identity Server Github project. Eventually I stumbled upon a clue that resulted in a server-side client definition that looks like this:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">new</span> Client
+    {
+        ClientName = <span style="color:#e6db74">&#34;DesktopClient&#34;</span>,
+        ClientId = <span style="color:#e6db74">&#34;native.hybrid&#34;</span>,
+        AllowedGrantTypes = GrantTypes.Code,
+        RefreshTokenUsage = TokenUsage.ReUse,
+        RequirePkce = <span style="color:#66d9ef">true</span>,
+        RequireClientSecret = <span style="color:#66d9ef">false</span>,
+        RequireConsent = <span style="color:#66d9ef">false</span>,
+        RedirectUris = { <span style="color:#e6db74">&#34;http://localhost:5200/&#34;</span>},
+        AllowRememberConsent = <span style="color:#66d9ef">true</span>,
+        UpdateAccessTokenClaimsOnRefresh = <span style="color:#66d9ef">true</span>,
+        AllowedScopes =
+        {
+            <span style="color:#e6db74">&#34;SecuredApi&#34;</span>,
+            IdentityServerConstants.StandardScopes.OpenId,
+            IdentityServerConstants.StandardScopes.Profile,
+        },
+        AllowOfflineAccess = <span style="color:#66d9ef">true</span>,
+        AllowAccessTokensViaBrowser = <span style="color:#66d9ef">true</span>,
+        EnableLocalLogin = <span style="color:#66d9ef">false</span>,
+        IdentityProviderRestrictions = <span style="color:#66d9ef">new</span> List&lt;<span style="color:#66d9ef">string</span>&gt; {<span style="color:#e6db74">&#34;Windows&#34;</span>}
+    }
+</code></pre></div><p>Adding the IdentityProviderRestrictions enabled me to skip past showing the user a login screen and process the windows login immediately. Following the native application sample, I could open the browser window to the Identity Server, completed the authentication negotiation, grab the returned authorization token and display a message confirm authentication. With a bit more tinkering I was able to style the authentication message to match the theme of the desktop application and keep the feel consistent.</p>
+<p>This was a fun and challenging learning experiment. I had to draw from disparate sources and piece a solution together. I learned a bunch from reading <a href="https://www.manning.com/books/oauth-2-in-action">OAuth 2 in Action</a> and reasoning about their Node JS examples.</p>
+<p>Even with the well-done documentation for Identity Server and its various configuration options, there was still much trial and error fiddling with server-side and client-side configuration settings to learn which setting did what and which settings needed to be an exact match. Thankfully I learned the scientific method long ago and only changed one option at a time so that I could reason reliably about the cause and the effect.</p>
+<p>What thought experiments have grabbed your attention lately?</p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
