@@ -4,7 +4,7 @@
     <title>EF Code First &amp; AppHarbor // Transparency, Inspection, and Adaptation</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.82.1" />
+    <meta name="generator" content="Hugo 0.97.0" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Barry Forrest" />
     <meta name="description" content="" />
@@ -21,8 +21,8 @@ It wasn’t anything pretty, but I was ready to deploy it to AppHarbor."/>
 It wasn’t anything pretty, but I was ready to deploy it to AppHarbor." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://bforrest.com/post/2011-08-25-ef-code-first-and-appharbor/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2011-08-25T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2011-08-25T00:00:00&#43;00:00" />
+<meta property="article:published_time" content="2011-08-25T00:00:00+00:00" />
+<meta property="article:modified_time" content="2011-08-25T00:00:00+00:00" />
 
 
 
@@ -95,14 +95,14 @@ It wasn’t anything pretty, but I was ready to deploy it to AppHarbor." />
 <p>It wasn’t anything pretty, but I was ready to deploy it to AppHarbor. That sounded great, but my first deploy failed. The local build compiled and worked as expected. The source that I pushed to AppHarbor compiled without problem, but the deployment failed.</p>
 <p>Problem number one, I didn’t create a database on AppHarbor. The quick solution was to configure the database on AppHarbor following their instructions. My local compile was fine and I expected my deployment to work as well. Wrong.</p>
 <p>After a bit of googling, I found a reference to this <a href="http://nuget.org/List/Packages/EFCodeFirst.CreateTablesOnly">EF Tables only</a> Nuget package. From the package writeup:</p>
-<pre><code>Adds a IDatabaseInitializer implementation for EF Code First CTP5, as a workaround for
+<pre tabindex="0"><code>Adds a IDatabaseInitializer implementation for EF Code First CTP5, as a workaround for
 situations where you need to update the tables,
 but can&amp;#8217;t recreate the database. Works with AppHabor.
 To use simply set the DontDropDbJustCreateTablesIfModelChanged class as
 IDatabaseInitializer with DbDatabase.SetInitializer.
 </code></pre><p>This package put a code file into the application’s App_Start folder. By un-commenting this line:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp">Database.SetInitializer( <span style="color:#66d9ef">new</span> DontDropDbJustCreateTablesIfModelChanged&lt;MyContext&gt;());
-</code></pre></div><p>So, after following some clear instructions to configure my connection string with the AppHarbor standards and using this NuGet package, I now have my first MVC3 application successfully deployed to AppHarbor! Hopefully this will help others, but I’m happy just to have this information in a place where I’ll be able to find it again.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span>Database.SetInitializer( <span style="color:#66d9ef">new</span> DontDropDbJustCreateTablesIfModelChanged&lt;MyContext&gt;());
+</span></span></code></pre></div><p>So, after following some clear instructions to configure my connection string with the AppHarbor standards and using this NuGet package, I now have my first MVC3 application successfully deployed to AppHarbor! Hopefully this will help others, but I’m happy just to have this information in a place where I’ll be able to find it again.</p>
 <p>Now to tweak, prune and watch it grow into something that is emblematic of my learning.</p>
 
     </div>

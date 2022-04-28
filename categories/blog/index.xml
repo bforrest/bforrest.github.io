@@ -9,10 +9,10 @@
     <lastBuildDate>Mon, 07 Jan 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://bforrest.com/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TIL =&gt; ReportViewer Control, Less is More</title>
-      <link>https://bforrest.com/post/2013-01-07-til-equals-reportviewer-control/</link>
+      <link>https://bforrest.com/post/2013-01-07-til-equals--reportviewer-control/</link>
       <pubDate>Mon, 07 Jan 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://bforrest.com/post/2013-01-07-til-equals-reportviewer-control/</guid>
+      <guid>https://bforrest.com/post/2013-01-07-til-equals--reportviewer-control/</guid>
       <description>Stop me if you&amp;rsquo;ve heard this one: &amp;ldquo;Their IT staff is going to take care of that development &amp;hellip;&amp;rdquo; And so it was recently on a project I am developing.
 A separate development activity was spun up to create the required SSRS reports which were to be hosted on a Report Server. Well the Report Server uses Active Directory accounts for authentication and authorization. The portal that I&amp;rsquo;m building essentially uses the ASP.</description>
     </item>

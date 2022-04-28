@@ -4,7 +4,7 @@
     <title>Fixed Navigation Bar With Twitter Bootstrap // Transparency, Inspection, and Adaptation</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.82.1" />
+    <meta name="generator" content="Hugo 0.97.0" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Barry Forrest" />
     <meta name="description" content="" />
@@ -21,8 +21,8 @@ I wanted to have the same functionality for my own html pages, so I started digg
 I wanted to have the same functionality for my own html pages, so I started digging around. Looking at the page source, I saw an include for &ldquo;/js/application." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://bforrest.com/post/2012-04-18-fixed-navigation-bar-with-twitter-bootstrap/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2012-04-18T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2012-04-18T00:00:00&#43;00:00" />
+<meta property="article:published_time" content="2012-04-18T00:00:00+00:00" />
+<meta property="article:modified_time" content="2012-04-18T00:00:00+00:00" />
 
 
 
@@ -93,42 +93,42 @@ I wanted to have the same functionality for my own html pages, so I started digg
     <div class="post-content">
       <p><a href="http://twitter.github.com/bootstrap/index.html">Twitter Bootstrap</a> has many very interesting features available. I really liked their fixed sub navigation menus for the feature pages. As you scroll past the subnavigation, it docs with the top of the scroll window and stays there. It also enables click navigation to other feature sections.</p>
 <p>I wanted to have the same functionality for my own html pages, so I started digging around. Looking at the page source, I saw an include for &ldquo;/js/application.js&rdquo;, which is included in the github source project, but is not part of the downloaded assets. At the top of the file is this nice disclaimer:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// NOTICE!! DO NOT USE ANY OF THIS JAVASCRIPT
-</span><span style="color:#75715e">// IT&#39;S ALL JUST JUNK FOR OUR DOCS!
-</span><span style="color:#75715e">// ++++++++++++++++++++++++++++++++++++++++++
-</span></code></pre></div><p>But I discovered that it is not JUST junk, there is a processScroll function that is just what I&rsquo;m looking for:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// fix sub nav on scroll
-</span><span style="color:#75715e"></span>   <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">$win</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">$</span>(window)
-   , <span style="color:#a6e22e">$nav</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#39;.subnav&#39;</span>)  
-      , <span style="color:#a6e22e">navTop</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#39;.subnav&#39;</span>).<span style="color:#a6e22e">length</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#39;.subnav&#39;</span>).<span style="color:#a6e22e">offset</span>().<span style="color:#a6e22e">top</span> <span style="color:#f92672">-</span> <span style="color:#ae81ff">40</span>
-      , <span style="color:#a6e22e">isFixed</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
-
-   <span style="color:#a6e22e">processScroll</span>()
-
-   <span style="color:#a6e22e">$win</span>.<span style="color:#a6e22e">on</span>(<span style="color:#e6db74">&#39;scroll&#39;</span>, <span style="color:#a6e22e">processScroll</span>)
-
-   <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">processScroll</span>() {
-      <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">i</span>, <span style="color:#a6e22e">scrollTop</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">$win</span>.<span style="color:#a6e22e">scrollTop</span>()
-      <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">scrollTop</span> <span style="color:#f92672">&gt;=</span> <span style="color:#a6e22e">navTop</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#f92672">!</span><span style="color:#a6e22e">isFixed</span>) {
-        <span style="color:#a6e22e">isFixed</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
-        <span style="color:#a6e22e">$nav</span>.<span style="color:#a6e22e">addClass</span>(<span style="color:#e6db74">&#39;subnav-fixed&#39;</span>)
-      } <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">scrollTop</span> <span style="color:#f92672">&lt;=</span> <span style="color:#a6e22e">navTop</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">isFixed</span>) {
-        <span style="color:#a6e22e">isFixed</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
-        <span style="color:#a6e22e">$nav</span>.<span style="color:#a6e22e">removeClass</span>(<span style="color:#e6db74">&#39;subnav-fixed&#39;</span>)
-      }
-   }
-</code></pre></div><p>This wires the processScroll() function to the window scroll event and toggles the navigation element based on where it rests relative to the viewport. The idea being to add the &lsquo;subnav-fixed&rsquo; CSS class to keep the element within the viewport.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#75715e">// NOTICE!! DO NOT USE ANY OF THIS JAVASCRIPT
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// IT&#39;S ALL JUST JUNK FOR OUR DOCS!
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// ++++++++++++++++++++++++++++++++++++++++++
+</span></span></span></code></pre></div><p>But I discovered that it is not JUST junk, there is a processScroll function that is just what I&rsquo;m looking for:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#75715e">// fix sub nav on scroll
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>   <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">$win</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">$</span>(window)
+</span></span><span style="display:flex;"><span>   , <span style="color:#a6e22e">$nav</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#39;.subnav&#39;</span>)  
+</span></span><span style="display:flex;"><span>      , <span style="color:#a6e22e">navTop</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#39;.subnav&#39;</span>).<span style="color:#a6e22e">length</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#39;.subnav&#39;</span>).<span style="color:#a6e22e">offset</span>().<span style="color:#a6e22e">top</span> <span style="color:#f92672">-</span> <span style="color:#ae81ff">40</span>
+</span></span><span style="display:flex;"><span>      , <span style="color:#a6e22e">isFixed</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">processScroll</span>()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">$win</span>.<span style="color:#a6e22e">on</span>(<span style="color:#e6db74">&#39;scroll&#39;</span>, <span style="color:#a6e22e">processScroll</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">processScroll</span>() {
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">i</span>, <span style="color:#a6e22e">scrollTop</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">$win</span>.<span style="color:#a6e22e">scrollTop</span>()
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">scrollTop</span> <span style="color:#f92672">&gt;=</span> <span style="color:#a6e22e">navTop</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#f92672">!</span><span style="color:#a6e22e">isFixed</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">isFixed</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">$nav</span>.<span style="color:#a6e22e">addClass</span>(<span style="color:#e6db74">&#39;subnav-fixed&#39;</span>)
+</span></span><span style="display:flex;"><span>      } <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">scrollTop</span> <span style="color:#f92672">&lt;=</span> <span style="color:#a6e22e">navTop</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">isFixed</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">isFixed</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">$nav</span>.<span style="color:#a6e22e">removeClass</span>(<span style="color:#e6db74">&#39;subnav-fixed&#39;</span>)
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>   }
+</span></span></code></pre></div><p>This wires the processScroll() function to the window scroll event and toggles the navigation element based on where it rests relative to the viewport. The idea being to add the &lsquo;subnav-fixed&rsquo; CSS class to keep the element within the viewport.</p>
 <p>Attached to the body tag was the first bit of markup that I needed to see:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">body</span> <span style="color:#a6e22e">data-spy</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;scroll&#34;</span> <span style="color:#a6e22e">data-target</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;.subnav&#34;</span> <span style="color:#a6e22e">data-offset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;50&#34;</span>&gt;
-</code></pre></div><p>The navigation div tags contained the rest of the information:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;subnav&#34;</span>&gt;
-      &lt;<span style="color:#f92672">li</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#labels&#34;</span>&gt;Labels&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">li</span>&gt;
-      &lt;<span style="color:#f92672">li</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#badges&#34;</span>&gt;Badges&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">li</span>&gt;
-&lt;/<span style="color:#f92672">div</span>&gt;
-<span style="color:#75715e">&lt;!-- along with page sections with matching id values --&gt;</span>
-&lt;<span style="color:#f92672">section</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;labels&#34;</span>&gt;label information&lt;/<span style="color:#f92672">section</span>&gt;
-&lt;<span style="color:#f92672">section</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;badges&#34;</span>&gt;badge information&lt;/<span style="color:#f92672">section</span>&gt;
-</code></pre></div><p>By annotating the body tag with the data- attribute of &ldquo;data-spy&rdquo;, identifying sectional elements with id value and including the
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">body</span> <span style="color:#a6e22e">data-spy</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;scroll&#34;</span> <span style="color:#a6e22e">data-target</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;.subnav&#34;</span> <span style="color:#a6e22e">data-offset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;50&#34;</span>&gt;
+</span></span></code></pre></div><p>The navigation div tags contained the rest of the information:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;subnav&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">li</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#labels&#34;</span>&gt;Labels&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">li</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#badges&#34;</span>&gt;Badges&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span><span style="color:#75715e">&lt;!-- along with page sections with matching id values --&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">section</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;labels&#34;</span>&gt;label information&lt;/<span style="color:#f92672">section</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">section</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;badges&#34;</span>&gt;badge information&lt;/<span style="color:#f92672">section</span>&gt;
+</span></span></code></pre></div><p>By annotating the body tag with the data- attribute of &ldquo;data-spy&rdquo;, identifying sectional elements with id value and including the
 <a href="http://twitter.github.com/bootstrap/javascript.html#scrollspy">Scrollspy</a> JavaScript plugin, we are able to synchronize the active menu item with the section that is topmost within the viewport.</p>
 <p>Now on my // TODO: list is to trick up the blog template to keep it&rsquo;s top navigation bar fixed along the top&hellip;</p>
 
