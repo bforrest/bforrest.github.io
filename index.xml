@@ -6,8 +6,18 @@
     <description>Recent content on Transparency, Inspection, and Adaptation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Jun 2021 08:47:12 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 22 Apr 2022 10:32:38 -0500</lastBuildDate>
 
+    
+    <item>
+      <title>Dockerized Rails</title>
+      <link>https://bforrest.com/post/2022-04-22-dockerized-rails/</link>
+      <pubDate>Fri, 22 Apr 2022 10:32:38 -0500</pubDate>
+      
+      <guid>https://bforrest.com/post/2022-04-22-dockerized-rails/</guid>
+      <description>New gig, new technology stack, and a ton (metric, not old money) to learn. I&amp;rsquo;ve used Docker for containerizing services before, but now I&amp;rsquo;m learning a slew of new root causes for exceptions when I&amp;rsquo;m building/compiling/deploying applications. It&amp;rsquo;s enough to make a brain hurt.
+When I first started with Cover My Meds I knew that I was going to need extra help to try and catch up to my teammates, who have been developing in Rails and Docker for years.</description>
+    </item>
     
     <item>
       <title>Identity Server 4</title>
