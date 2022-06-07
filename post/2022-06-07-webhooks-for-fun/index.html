@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Github Webhooks for Fun and Profit // Transparency, Inspection, and Adaptation</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.97.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Barry Forrest" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://bforrest.com/css/main.min.1f33433458cf54f6f2efd1937112052045c441f4bbbbe71294d95a353cf5b8ed.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Github Webhooks for Fun and Profit"/>
+<meta name="twitter:description" content="I&rsquo;m in the middle of a fun little exploration for work that bled over into personal time. Our CI/CD pipeline runs a dependabot-ci every evening. When everything is calm and well in the world our Jenkins server is quiet. When new CVEs are published, Mr. Jenkins becomes chatty, posting failure notifications to our team&rsquo;s Slack channel. The last thing developmers want to see after hours is CI failure messages in Slack."/>
+
+    <meta property="og:title" content="Github Webhooks for Fun and Profit" />
+<meta property="og:description" content="I&rsquo;m in the middle of a fun little exploration for work that bled over into personal time. Our CI/CD pipeline runs a dependabot-ci every evening. When everything is calm and well in the world our Jenkins server is quiet. When new CVEs are published, Mr. Jenkins becomes chatty, posting failure notifications to our team&rsquo;s Slack channel. The last thing developmers want to see after hours is CI failure messages in Slack." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://bforrest.com/post/2022-06-07-webhooks-for-fun/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-06-07T17:42:06-05:00" />
+<meta property="article:modified_time" content="2022-06-07T17:42:06-05:00" />
+
+
+
+    </head>
+  <body>
+    <header class="app-header">
+      <a href="https://bforrest.com"><img class="app-header-avatar" src="/public/images/avatar.jpg" alt="Barry Forrest" /></a>
+      <h1>Transparency, Inspection, and Adaptation</h1>
+      <nav class="app-header-menu">
+          <a class="app-header-menu-item" href="/about/about">About</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/">Home</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/tags/">Tags</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/talks/">Talks</a>
+      </nav>
+      <p>My agile journey as developer, scrum master and padawan coach.</p>
+      <div class="app-header-social">
+        
+          <a target="_blank" href="https://github.com/bforrest" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg></a>
+        
+          <a target="_blank" href="https://twitter.com/bforrest30" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-twitter">
+  <title>twitter</title>
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+</svg></a>
+        
+          <a target="_blank" href="https://www.linkedin.com/in/barryforrest/" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-linkedin">
+  <title>linkedin</title>
+  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle>
+</svg></a>
+        
+          <a target="_blank" href="/feed" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-rss">
+  <title>rss</title>
+  <path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle>
+</svg></a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Github Webhooks for Fun and Profit</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Jun 7, 2022
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          3 min read
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
+</svg>
+              <a class="tag" href="https://bforrest.com/tags/webhooks/">webhooks</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <p>I&rsquo;m in the middle of a fun little exploration for work that bled over into personal time. Our CI/CD pipeline runs a <code>dependabot-ci</code> every evening. When everything is calm and well in the world our Jenkins server is quiet. When new <a href="https://www.redhat.com/en/topics/security/what-is-cve">CVEs</a> are published, Mr. Jenkins becomes chatty, posting failure notifications to our team&rsquo;s Slack channel. The last thing developmers want to see after hours is CI failure messages in Slack.</p>
+<p>I, like most <code>good</code> developers, am lazy. I don&rsquo;t want to keep doing the same tasks over and over again Ground Hog Day style. When opportunities to automate away the drudgery present themselves, I pounce. This was one of those opportunities. I want to automate creation of the Jira (yes, it&rsquo;s a four-letter-word) ticket required for auditing our code changes. And this is where the webhook comes into play.</p>
+<p>Right before Jenkins posts in the Slack channel, he creates a pull request for us - similar to dependabot on Github. I can create a webhook in Github (Enterprise) and post the json payload from the pull request along to another web endpoint. From there I can parse out the compliance information, create the Jira ticket, point, prioritize, and put it into the <code>ready</code> column of our kanban board.</p>
+<p>This evening when I followed along with the <a href="https://docs.github.com/en/developers/webhooks-and-events/webhooks/creating-webhooks">Github documentation</a> I ran into a few <code>Gotchas</code>. The first one was trying to install <code>ngrok</code> on the work laptop. There aren&rsquo;t real keen on proxies and when dealing with healthcare information I don&rsquo;t blame them a bit. I switched to my personal machine and marched onward.</p>
+<p>There some bumps in setting up my server to receive calls with the webhook information. Ngrok shows a default port of 80 for routing internet traffic into my machine, but the ruby webrick server doesn&rsquo;t listen on port 80 by default. Webrick wants to listen on port 4567.</p>
+<p>After a few rounds of running</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span>ngrok http <span style="color:#ae81ff">80</span>
+</span></span></code></pre></div><p>and watching 503 errors it occurred to me that my plumbing was bad and that&rsquo;s when I caught the difference in the port configuration.</p>
+<p>Launching ngrok with</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span>ngrok http <span style="color:#ae81ff">4567</span>
+</span></span></code></pre></div><p>enabled the webhook that I&rsquo;d configured withing my Github repository to publish to my ngrok endpoint and attempt to resolve my local ruby server. My reward was a 404 response this time. Yeah! Progress.</p>
+<p>Ngrok wasn&rsquo;t lying. I configured the server to accept a <code>post</code> request at <code>/payload</code>. The Github webhook didn&rsquo;t have the correct route. Once I tacked on the <code>/payload</code> I was able to redeliver messages from the Github webhook through the ngrok proxy to my wee-little ruby server that obediently slammed the JSON payload into my console window.</p>
+<p>The next step is to parse out my Jira ticket title, summary, and prep a JSON payload to throw at the Jira Rest API. Before long no one on my team will need to spend a morning creating Jira tickets for dependabot pull requests that make our software more secure. #winning.</p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
