@@ -23,7 +23,7 @@ I have clearly selected a frequency of &amp;ldquo;One Time&amp;rdquo; and not &a
       <pubDate>Sun, 05 Aug 2012 00:00:00 +0000</pubDate>
       
       <guid>https://bforrest.com/post/2012-08-05-console-dot-log-anywhere/</guid>
-      <description>My current assingment for Improvinghas me writing much more client-side javascript. I&amp;rsquo;m not a javascript ninja, so I lean on the console window to confirm that the script is doing what I expected it to do. This approach works great until I view a page in IE, which has no clue what &amp;ldquo;console&amp;rdquo; means and acosts me with script error popups.
+      <description>My current assingment for Improving has me writing much more client-side javascript. I&amp;rsquo;m not a javascript ninja, so I lean on the console window to confirm that the script is doing what I expected it to do. This approach works great until I view a page in IE, which has no clue what &amp;ldquo;console&amp;rdquo; means and acosts me with script error popups.
 This finally got annoying enough that I started looking for a universal solution.</description>
     </item>
     

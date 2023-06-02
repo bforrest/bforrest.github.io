@@ -44,8 +44,8 @@ Identity Server was an interesting option to protect access to various web API e
       
       <guid>https://bforrest.com/post/proud-debugging-moment/</guid>
       <description>I recently started searching for a &amp;ldquo;forever home&amp;rdquo; and found a compelling posting by You Need A Budget. They are searching for a Humbly Confident Senior Full Stack Developer. One of the questions required to complete their application is the seed for this post.
- Briefly (no more than a few sentences) describe a proud &amp;ldquo;debugging&amp;rdquo; moment you had, where you found and fixed a bug.
- Is there such a thing as a proud debugging moment?</description>
+Briefly (no more than a few sentences) describe a proud &amp;ldquo;debugging&amp;rdquo; moment you had, where you found and fixed a bug.
+Is there such a thing as a proud debugging moment?</description>
     </item>
     
     <item>
@@ -76,7 +76,7 @@ I followed along with Brian&amp;rsquo;s example site and learned some neat thing
       <guid>https://bforrest.com/post/2019-06-11-forbidden-island-team-dynamics/</guid>
       <description>While at The Path to Agility 2019, I had the pleasure of attending Team Dynamics on the Forbidden Island, hosted by Paul Boos . This session used a co-operative table-top game, Forbidden Island to explore team dynamics and illustrate Tuckman’s stages of group development- “storming, forming, norming, performing&amp;quot;
 Here’s the publisher’s description of the game:
- Join a team of fearless adventurers on a do-or-die mission to capture four sacred treasures from the ruins of this perilous paradise.</description>
+Join a team of fearless adventurers on a do-or-die mission to capture four sacred treasures from the ruins of this perilous paradise.</description>
     </item>
     
     <item>
@@ -116,7 +116,7 @@ Longer More Detailed Version November 8th a wild fire, later named Camp Fire, br
       <guid>https://bforrest.com/post/2018-02-21-lose-the-lies/</guid>
       <description>An interview that Patty McCord did to publicize her new book bubbled up in a social media stream. A few friends commented about the powerful truths she was telling, so I followed the link.
 Here are some excerpts from that Patty McCord interview which resonated with me:
- &amp;hellip;we’re gonna be your paternalistic employer for the rest of your life and provide you with career ladders and promotions forever. It hasn’t been true for 30 years, and it’s certainly not true now.</description>
+&amp;hellip;we’re gonna be your paternalistic employer for the rest of your life and provide you with career ladders and promotions forever. It hasn’t been true for 30 years, and it’s certainly not true now.</description>
     </item>
     
     <item>
@@ -207,7 +207,7 @@ I have clearly selected a frequency of &amp;ldquo;One Time&amp;rdquo; and not &a
       <pubDate>Sun, 05 Aug 2012 00:00:00 +0000</pubDate>
       
       <guid>https://bforrest.com/post/2012-08-05-console-dot-log-anywhere/</guid>
-      <description>My current assingment for Improvinghas me writing much more client-side javascript. I&amp;rsquo;m not a javascript ninja, so I lean on the console window to confirm that the script is doing what I expected it to do. This approach works great until I view a page in IE, which has no clue what &amp;ldquo;console&amp;rdquo; means and acosts me with script error popups.
+      <description>My current assingment for Improving has me writing much more client-side javascript. I&amp;rsquo;m not a javascript ninja, so I lean on the console window to confirm that the script is doing what I expected it to do. This approach works great until I view a page in IE, which has no clue what &amp;ldquo;console&amp;rdquo; means and acosts me with script error popups.
 This finally got annoying enough that I started looking for a universal solution.</description>
     </item>
     
@@ -302,7 +302,7 @@ I’ve been away from web development for just a bit too long and have a lot of 
       
       <guid>https://bforrest.com/post/2011-08-16-css-for-developers/</guid>
       <description>Here are some of my take aways from Eric Sowell&amp;rsquo;s presentation at theDallas Tech Fest
- Semantic markup makes reading html simpler Modernizer of Html5Shim make older browsers work with semantic tags Using a “css reset” can save you lots of grief and frustration  The css reset Eric used came from Eric Meyer’s site. I&amp;rsquo;ve seen settings in the Blueprint Css style sheets.
+Semantic markup makes reading html simpler Modernizer of Html5Shim make older browsers work with semantic tags Using a “css reset” can save you lots of grief and frustration The css reset Eric used came from Eric Meyer’s site. I&amp;rsquo;ve seen settings in the Blueprint Css style sheets.
 I also heard the phrase “In general, you should be more specific;.</description>
     </item>
     
@@ -322,7 +322,7 @@ Here’s an oldie but a a goody by Eric Hexter on why you should source control 
       <pubDate>Sat, 23 Apr 2011 00:00:00 +0000</pubDate>
       
       <guid>https://bforrest.com/post/2011-04-23-why-johnny-cant-build-a-decent-ui/</guid>
-      <description>Why Johnny can’t build a decent user interface.An interesting read by Jeffrey Ellis that I picked up from a @shanselmantweet. It is a reminder of why I write software -&amp;gt; for end users to get something done. There’s a list of questions that I need to keep top of mind when developing applications:
+      <description>Why Johnny can’t build a decent user interface.An interesting read by Jeffrey Ellis that I picked up from a @shanselman tweet. It is a reminder of why I write software -&amp;gt; for end users to get something done. There’s a list of questions that I need to keep top of mind when developing applications:
 +Who are the users
 +What are their goals
 +What are their tasks
