@@ -1,0 +1,48 @@
+{
+    "id": "did:web:bforrest.com",
+    "@context": [
+      "https://www.w3.org/ns/did/v1",
+      {
+        "@base": "did:web:bforrest.com"
+      }
+    ],
+    "service": [
+      {
+        "id": "#linkeddomains",
+        "type": "LinkedDomains",
+        "serviceEndpoint": {
+          "origins": [
+            "https://bforrest.com/"
+          ]
+        }
+      },
+      {
+        "id": "#hub",
+        "type": "IdentityHub",
+        "serviceEndpoint": {
+          "instances": [
+            "https://hub.did.msidentity.com/v1.0/f5acdd80-26f8-4395-aa74-fb679bfe00aa"
+          ]
+        }
+      }
+    ],
+    "verificationMethod": [
+      {
+        "id": "#65c55c3dd0a147cda60952acdd280e96vcSigningKey-52064",
+        "controller": "did:web:bforrest.com",
+        "type": "EcdsaSecp256k1VerificationKey2019",
+        "publicKeyJwk": {
+          "crv": "secp256k1",
+          "kty": "EC",
+          "x": "OHeIBzHY7Hq4TK6edZ5UMJqdv4vJBY_-_fsoDKfIdTc",
+          "y": "skmgh0QJg8Ne8CP6_ZpPbKuexPXpQ0DPDEx5WT70lKQ"
+        }
+      }
+    ],
+    "authentication": [
+      "#65c55c3dd0a147cda60952acdd280e96vcSigningKey-52064"
+    ],
+    "assertionMethod": [
+      "#65c55c3dd0a147cda60952acdd280e96vcSigningKey-52064"
+    ]
+  }
