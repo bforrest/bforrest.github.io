@@ -2,13 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://bforrest.com/post/identity-server/</loc>
-    <lastmod>2021-06-20T08:47:12-05:00</lastmod>
+    <loc>https://bforrest.com/post/2022-06-07-webhooks-for-fun/</loc>
+    <lastmod>2022-06-07T17:42:06-05:00</lastmod>
   </url><url>
     <loc>https://bforrest.com/post/</loc>
-    <lastmod>2021-06-20T08:47:12-05:00</lastmod>
+    <lastmod>2022-06-07T17:42:06-05:00</lastmod>
+  </url><url>
+    <loc>https://bforrest.com/tags/</loc>
+    <lastmod>2022-06-07T17:42:06-05:00</lastmod>
   </url><url>
     <loc>https://bforrest.com/</loc>
+    <lastmod>2022-06-07T17:42:06-05:00</lastmod>
+  </url><url>
+    <loc>https://bforrest.com/tags/webhooks/</loc>
+    <lastmod>2022-06-07T17:42:06-05:00</lastmod>
+  </url><url>
+    <loc>https://bforrest.com/post/2022-04-22-dockerized-rails/</loc>
+    <lastmod>2022-04-22T10:32:38-05:00</lastmod>
+  </url><url>
+    <loc>https://bforrest.com/post/identity-server/</loc>
     <lastmod>2021-06-20T08:47:12-05:00</lastmod>
   </url><url>
     <loc>https://bforrest.com/post/proud-debugging-moment/</loc>
@@ -24,9 +36,6 @@
     <lastmod>2020-12-29T14:04:46-06:00</lastmod>
   </url><url>
     <loc>https://bforrest.com/tags/hugo/</loc>
-    <lastmod>2020-12-29T14:04:46-06:00</lastmod>
-  </url><url>
-    <loc>https://bforrest.com/tags/</loc>
     <lastmod>2020-12-29T14:04:46-06:00</lastmod>
   </url><url>
     <loc>https://bforrest.com/tags/agility/</loc>
